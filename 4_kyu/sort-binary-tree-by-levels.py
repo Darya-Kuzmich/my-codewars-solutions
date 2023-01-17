@@ -42,7 +42,7 @@ class Node:
         self.value = n
 
 
-def tree_by_levels(node: Node):
+def tree_by_levels(node: Node) -> list:
     values = []
     nodes_queue = deque()
     visited = []
